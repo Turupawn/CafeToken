@@ -1,0 +1,16 @@
+{
+	"name": "Cafe Token Finca B Siembra 2023",
+	"description": "Lorem ipsum...",
+	"image": "https://raw.githubusercontent.com/Turupawn/CafeToken/main/metadata/img/1.png",
+	"properties": {
+		"altitud": 1800,
+		"reference": {
+			"name": "Pedro",
+			"surname": "Ramírez"
+		},
+		"location": {
+			"lat": 28.5,
+			"long": 10
+		}
+	}
+}

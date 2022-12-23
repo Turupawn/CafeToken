@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity 0.8.17;
 
 interface IERC165 {
     function supportsInterface(bytes4 interfaceId) external view returns (bool);
@@ -649,7 +649,7 @@ abstract contract ERC1155Supply is ERC1155 {
     }
 }
 
-contract MyToken is ERC1155, Ownable, Pausable, ERC1155Burnable, ERC1155Supply {
+contract CafeToken is ERC1155, Ownable, Pausable, ERC1155Burnable, ERC1155Supply {
     constructor() ERC1155("") {}
 
     function setURI(string memory newuri) public onlyOwner {
